@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: .94rem;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+body h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 20px 0;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+}
+
+body p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0;
+  margin: 20px 0;
+  font-size: 13px;
+  line-height: 2;
+
+}
+
+#sec {
+  min-height: 100vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  padding: 50px;
+  margin: 0;
+}
+
+.btn {
+  background: hsl(0, 0%, 95%);
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  border: 0;
+  height: 35px;
+  width: 120px;
+  cursor: pointer;
+}
+
+
+.btn.left {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn.mid {
+color: hhsl(184, 100%, 22%);
+}
+
+.btn-right {
+color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+  background-color: Transparent;
+  border: 1px solid hsl(0, 0%, 95%);
+  color: white;
+}
+
+.left-col {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.mid-col {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.right-col {
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 950px) {
+
+  #sec {
+    width: 60%;
+    margin: 0 auto;
+    height: 80%;
+
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .buttons {
+    margin-top: 80px;
+  }
+
+  .icon {
+    margin-bottom: 35px;
+  }
+
+
+}
